@@ -63,6 +63,7 @@ function check_If_Ok() {
     var after_convert_res = "";
     res1 = document.getElementById('text-center').innerHTML;
     res = res1.toLowerCase();
+    value = value.toLowerCase();
     console.log(res);
     for (let index = 0; index < value.length; index++) {
         if ('.,abcdefghijklmnopqrstuvwxyz123456789'.indexOf(value.charAt(index)) == -1) {
